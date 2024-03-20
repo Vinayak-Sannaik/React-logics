@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*-------------------------------- progress bar-------------------------------------- */
+.progress {
+  margin: 10px 5px;
+  width: 1000px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.progress-percent {
+  position: absolute;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress div {
+  height: 100%;
+  background-color: yellow;
+}
+
