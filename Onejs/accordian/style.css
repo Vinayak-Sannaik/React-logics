@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary_color : #fff
+}
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: violet;
+    width: 60vw;
+    height: 100vh;
+}
+
+.questions{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.container .question{
+    display: flex;
+    justify-content: center;
+}
+.container .answer{
+    display: flex;
+    justify-content: center;
+    display: none;
+}

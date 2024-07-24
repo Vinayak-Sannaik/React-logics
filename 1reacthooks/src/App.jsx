@@ -2,6 +2,7 @@ import "./App.css";
 import DigitalTimer from "./components/DigitalTimer";
 import ProgressBar from "./components/ProgressBar";
 import ProgressBarAutomatic from "./components/ProgressBarAutomatic";
+import CollegesTable from "./components/colleageDuniya/CollageDuniya";
 // import UseState from "./components/UseState";
 
 function App() {
@@ -11,13 +12,15 @@ function App() {
       {/* <hr /> */}
       {/* <UseState /> */}
       {/* <hr /> */}
-      <h2>React Interview logics</h2>
+      {/* <h2>React Interview logics</h2> */}
+      {/* <hr /> */}
+      {/* <DigitalTimer /> */}
+      {/* <hr /> */}
+      {/* <ProgressBar /> */}
+      {/* <ProgressBarAutomatic /> */}
       <hr />
-      <DigitalTimer />
-      <hr />
-      <ProgressBar />
-      <ProgressBarAutomatic />
 
+      <CollegesTable />
     </>
   );
 }
