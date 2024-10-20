@@ -3,6 +3,7 @@ import DigitalTimer from "./components/DigitalTimer";
 import ProgressBar from "./components/ProgressBar";
 import ProgressBarAutomatic from "./components/ProgressBarAutomatic";
 import CollegesTable from "./components/colleageDuniya/CollageDuniya";
+import Debounce from "./components/debounce/Debounce";
 // import UseState from "./components/UseState";
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
       {/* <hr /> */}
       {/* <ProgressBar /> */}
       {/* <ProgressBarAutomatic /> */}
-      <hr />
-
-      <CollegesTable />
+      {/* <hr /> */}
+      {/* <CollegesTable /> */}
+      {/* <hr /> */}
+      <Debounce />
     </>
   );
 }
