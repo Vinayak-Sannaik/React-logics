@@ -1,20 +1,20 @@
-// const PropsPass = (props) => {
+const PropsPass = (props) => {
     // Destructuring props
-    // const { name, mname, sname, details } = props;
+    const { name, mname, sname, details } = props;
 
-//     return (
-//         <>
-//             {/* Accessing props */}
-//             <p>Name: {name}</p>
-//             <p>Middle Name: {mname}</p>
-//             <p>Surname: {sname}</p>
-//             {/* Accessing details */}
-//             {/* <p>Details: {details.n}, {details.p}</p> */}
-//         </>
-//     );
-// }
+    return (
+        <>
+            {/* Accessing props */}
+            <p>Name: {name}</p>
+            <p>Middle Name: {mname}</p>
+            <p>Surname: {sname}</p>
+            {/* Accessing details */}
+            <p>Details: {details.n}, {details.p}</p>
+        </>
+    );
+}
 
-// export default PropsPass;
+export default PropsPass;
 
 
 
